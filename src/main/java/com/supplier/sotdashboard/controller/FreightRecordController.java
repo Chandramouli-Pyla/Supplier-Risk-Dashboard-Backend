@@ -12,6 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/freight-records")
 @CrossOrigin(origins = "https://supplier-risk-dashboard-795019603251.us-central1.run.app")
+//@CrossOrigin(origins ="http://localhost:4200")
 public class FreightRecordController {
 
     private final FreightRecordService freightRecordService;

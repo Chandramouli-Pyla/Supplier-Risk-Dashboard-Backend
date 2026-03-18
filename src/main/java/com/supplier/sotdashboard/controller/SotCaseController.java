@@ -11,6 +11,7 @@ import java.util.List;
 @RequestMapping("/api/sot-cases")
 @RequiredArgsConstructor
 @CrossOrigin(origins = "https://supplier-risk-dashboard-795019603251.us-central1.run.app")
+//@CrossOrigin(origins ="http://localhost:4200")
 public class SotCaseController {
 
     private final SotCaseService sotCaseService;

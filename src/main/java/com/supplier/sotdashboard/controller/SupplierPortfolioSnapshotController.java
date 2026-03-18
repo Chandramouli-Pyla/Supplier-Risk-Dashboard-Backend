@@ -12,6 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/supplier-portfolio")
 @CrossOrigin(origins = "https://supplier-risk-dashboard-795019603251.us-central1.run.app")
+//@CrossOrigin(origins ="http://localhost:4200")
 public class SupplierPortfolioSnapshotController {
 
     private final SupplierPortfolioSnapshotService service;
